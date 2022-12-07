@@ -1,10 +1,73 @@
 :root {
     --color-texto: #FFFFFF;
-    --color-subtexto: #C0C0C0;
+    --color-sub-texto: #C0C0C0;
     --color-botao: #167BF7;
     --color-fundo: #00030C;
+    --fonte-principal: 'Inter';
 }
 
 body {
     background-color: var(--color-fundo);
+    font-family: var(--fonte-principal)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    /*left: 3.375rem;
+    top: 7.813rem;
+    right: 49.875rem;*/
+}
+
+.principal {
+    background-image: url(../img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container__titulo {
+    color: var(--color-texto);
+    font-family: 'Inter';
+    line-height: 34px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container__botao-1, .container__botao-2 {
+    text-align: center;
+    border-radius: 8px;
+    color: var(--color-texto);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 16px;
+    gap: 16px;
+}
+
+.container__botao-1 {
+    background-color: var(--color-botao);
+}
+
+.container__botao-2 {
+    background-color: transparent;
+    border: 2px solid var(--color-texto);
+}
+
+.container__sub-texto {
+    color: var(--color-sub-texto);
+    font-family: 'Inter';
+    line-height: 15px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
