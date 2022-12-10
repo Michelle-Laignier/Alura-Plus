@@ -1,13 +1,8 @@
 :root {
-<<<<<<< HEAD
-=======
-    --color-texto: #FFFFFF;
-    --color-sub-texto: #C0C0C0;
-    --color-sub-texto-2: #F9F9F9;
->>>>>>> parte-central
     --color-botao: #167BF7;
     --color-fundo: #00030C;
     --color-sub-texto: #C0C0C0;
+    --color-sub-texto-2: #F9F9F9;
     --color-texto: #FFFFFF;
     --fonte-principal: 'Inter';
 }
@@ -55,16 +50,10 @@ body {
 }
 
 .container__botao-1, .container__botao-2 {
-<<<<<<< HEAD
+    background-color: var(--color-botao);
     border-radius: 8px;
     color: var(--color-texto);
     display: block;
-=======
-    color: var(--color-texto);
-    text-align: center;
-    display: block;
-    border-radius: 8px;
->>>>>>> parte-central
     font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
