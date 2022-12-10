@@ -13,12 +13,19 @@
     margin-bottom: 0.5rem;
 }
 
-.container-2__texto {
+.container-2__texto, .container-4__texto {
     color: var(--color-sub-texto-2);
     font-size: 16px;
     line-height: 150%;
-    margin-right: 7.5rem;
     opacity: 0.8;
+}
+
+.container-2__texto {
+    margin-right: 7.5rem;
+}
+
+.container-4__texto {
+    margin-right: 10.5rem;
 }
 
 .container-3__botao {
