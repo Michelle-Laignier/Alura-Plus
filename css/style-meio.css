@@ -7,17 +7,17 @@
 }
 
 .container-2__titulo {
-    font-weight: 700;
     font-size: 48px;
+    font-weight: 700;
     line-height: 120%;
     margin-bottom: 0.5rem;
 }
 
 .container-2__texto {
+    color: var(--color-sub-texto-2);
     font-size: 16px;
     line-height: 150%;
     margin-right: 7.5rem;
-    color: var(--color-sub-texto-2);
     opacity: 0.8;
 }
 
