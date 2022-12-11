@@ -1,0 +1,26 @@
+.dispositivos__titulo {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 120%;
+    margin-bottom: 2.5rem;
+}
+
+.dispositivos-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 9.063rem;
+}
+
+.dispositivos__container-individuais {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dispositivos__texto {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
