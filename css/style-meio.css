@@ -31,6 +31,12 @@
 .container-3__botao {
     display: inline-block;
     margin-top: 1rem;
+    transition: 1s;
+}
+
+.container-3__botao:hover {
+    background-color: var(--color-texto);
+    color: var(--color-botao);
 }
 
 .container-3 {

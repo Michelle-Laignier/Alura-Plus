@@ -68,11 +68,23 @@ body {
 
 .container__botao-1 {
     background-color: var(--color-botao);
+    transition: 1s;
+}
+
+.container__botao-1:hover {
+    background-color: var(--color-texto);
+    color: var(--color-botao);
 }
 
 .container__botao-2 {
     background-color: transparent;
     border: 2px solid var(--color-texto);
+    transition: 1s;
+}
+
+.container__botao-2:hover {
+    background-color: #FFFFFF;
+    color: #00030C;
 }
 
 .container__sub-texto {
